@@ -1,0 +1,41 @@
+Claro! Aqui está a transcrição completa do código que aparece na imagem:
+
+```html
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+</head>
+<body>
+<div class="container">
+    <h1>Cadastro de Produtos</h1>
+    <p>Preencha todos os dados para cadastrar um Produto</p>
+
+    <form action="/produtos/cadastrar" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div>
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao" required>
+        </div>
+        <div>
+            <label for="preco">Preço:</label>
+            <input type="number" step="0.01" id="preco" name="preco" required>
+        </div>
+        <div>
+            <label for="fabricante">Fabricante:</label>
+            <input type="text" id="fabricante" name="fabricante" required>
+        </div>
+        <div>
+            <button type="submit">Cadastrar Produto</button>
+        </div>
+    
+  </div>
+
+</body>
+</html>
+
